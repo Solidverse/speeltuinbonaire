@@ -17,7 +17,7 @@
           <div class="max-w-6xl mx-auto text-center px-4">
             <h2 class="text-lg text-gray-700 mb-2">Heeft u vragen?</h2>
             <p class="text-gray-500 mb-8">
-              Neem contact met ons op via een van de onderstaande kanalen:
+              Neem contact met ons op via één van de onderstaande kanalen:
             </p>
 
             <div class="flex flex-col items-center gap-6">
@@ -27,7 +27,7 @@
                 target="_blank"
                 class="flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-all w-full sm:w-auto"
               >
-                <Icon size="24" name="fa-brands:facebook" />
+                <Icon size="24" class="mx-4" name="fa-brands:facebook" />
                 <span class="text-lg text-gray-800">speeltuin.bonaire</span>
               </a>
 
@@ -37,9 +37,9 @@
                 target="_blank"
                 class="flex items-center space-x-2 text-green-500 hover:text-green-700 transition-all w-full sm:w-auto"
               >
-                <Icon size="24" name="fa-brands:whatsapp" />
+                <Icon size="24" class="mx-4" name="fa-brands:whatsapp" />
                 <span class="text-lg text-gray-800"
-                  >065133640 (alleen App)</span
+                  >065133640 (alleen app)</span
                 >
               </a>
 
@@ -48,7 +48,7 @@
                 href="mailto:info@speeltuinbonaire.nl"
                 class="flex items-center space-x-2 text-gray-800 hover:text-gray-600 transition-all w-full sm:w-auto"
               >
-                <Icon size="24" name="fa6-solid:envelope" />
+                <Icon size="24" class="mx-4" name="fa6-solid:envelope" />
                 <span class="text-lg text-gray-800"
                   >info@speeltuinbonaire.nl</span
                 >
@@ -58,7 +58,7 @@
               <div
                 class="flex items-center space-x-2 text-gray-800 w-full sm:w-auto"
               >
-                <Icon size="24" name="fa-solid:map-marker-alt" />
+                <Icon size="24" class="mx-4" name="fa-solid:map-marker-alt" />
                 <span class="text-lg text-gray-800"
                   >Windmolenpad 24, 3193AR Hoogvliet Rotterdam</span
                 >
