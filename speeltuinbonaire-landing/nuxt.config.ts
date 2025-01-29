@@ -9,4 +9,19 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  app: {
+    head: {
+      title: "Speeltuin Bonaire Hoogvliet - Website In Aanbouw",
+      meta: [
+        {
+          name: "description",
+          content: "Speeltuin Bonaire Hoogvliet - Website In Aanbouw",
+        },
+      ],
+      link: [
+        { rel: "icon", href: "/favicon.ico" },
+        // Voeg hier andere link-instellingen toe, zoals de favicon
+      ],
+    },
+  },
 });
