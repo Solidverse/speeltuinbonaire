@@ -53,6 +53,16 @@
                   >info@speeltuinbonaire.nl</span
                 >
               </a>
+
+              <!-- Adres -->
+              <div
+                class="flex items-center space-x-2 text-gray-800 w-full sm:w-auto"
+              >
+                <Icon size="24" name="fa-solid:map-marker-alt" />
+                <span class="text-lg text-gray-800"
+                  >Windmolenpad 24, 3193AR Hoogvliet Rotterdam</span
+                >
+              </div>
             </div>
           </div>
         </section>
